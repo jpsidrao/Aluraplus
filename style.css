@@ -1,0 +1,151 @@
+:root {
+    --branco-principal: #FFFFFF;
+    --cinza-secundário: #C0C0C0;
+    --botão-azul: #167BF7;
+    --cor-do-fundo: #00030C;
+    --fonte-principal: "Inter";
+
+}
+
+
+body {
+
+    background-color: var(--cor-do-fundo);
+    color: var(--branco-principal);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+.principal {
+    background-image: url("img/Background.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+
+}
+div{
+    margin:0 3em;
+}
+
+.conteiner {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    align-items: center;
+    text-align: center;
+
+}
+.conteiner_imag{
+    margin: 1em 0 2em 0;
+}
+.conteiner_botao {
+    margin: 1em;
+    background-color: var(--botão-azul);
+    color: var(--branco-principal);
+    padding: 1em;
+    border-radius: 5px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+}
+
+.botão_secundario {
+    background-color: transparent;
+    color: var(--branco-principal);
+    padding: 1em;
+    border-radius: 5px;
+    border-color: #FFFFFF;
+    border-style: solid;
+    display: block;
+    text-align: center;
+}
+
+.conteiner_aviso {
+    font-size: 12px;
+    color: var(--cinza-secundário);
+    text-align: center;
+}
+.img_secundaria{
+    width: 80%;
+   
+}
+.secundaria{
+    align-items: center;
+    margin: 0 10em;
+   
+}
+.titulo, .descricao{
+    text-align: left;
+    
+}
+.titulo{
+    font-size: 48px;
+    
+}
+.descricao{
+    color: var(--cinza-secundário);
+}
+.p{
+    color: var(--cinza-secundário);
+    text-align: left;
+}
+
+.botao_terciario{
+   display: inline-block;
+   text-align: left;
+  
+}
+.dispositivos{
+    text-align: center;
+    margin: 5em 0;
+}
+.dispositivos_titulo{
+    font-size: 48px;
+}
+.dispositivos_item{
+    font-size: 32px;
+}
+.dispositivos_lista{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+.rodape_lista{
+    display: flex;
+    justify-content: space-around   ;
+    font-size: 24px;
+
+
+    list-style-type: none;
+margin-top: 2em;
+}
+.rodape{
+    text-align: center;
+}
+.rodape_texto{
+    font-size: 14px;
+    margin: 1em;
+    text-align: center;
+    padding: 1em;
+}
+.rodape_texto1{
+    margin: 1em;
+    color: var(--cinza-secundário);
+}
+.rodape_texto2{
+    margin-bottom: 5em;
+    color: var(--cinza-secundário);
+}
+.rodape_link:hover{
+    color: var(--botão-azul);
+    cursor: pointer;
+}
+.rodape_link{
+    cursor: pointer;
+}
